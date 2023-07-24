@@ -1,9 +1,13 @@
 <script setup>
-import Rmbg from "./views/Rmbg.vue";
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
-    <Rmbg />
+    <!-- <Rmbg /> -->
+    <router-view></router-view>
+    <footer>
+            <Footer />
+    </footer>
 </template>
 
 
